@@ -14,10 +14,17 @@ class ViewController: UIViewController {
     @IBOutlet weak var faceLabel: UILabel!
     @IBOutlet weak var textField: UITextField!
     
+    let swifter = Swifter(consumerKey: "Your App Key here", consumerSecret: "Your App Secret Here")
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        swifter.searchTweet(using: "@Apple",success: { (results, searchMetadata) in
+            print(results)
+        }, failure: {error in
+            print("there is an error with Twitter API Request, \(error)")
+        })
     }
 
     @IBAction func showThought(_ sender: UIButton) {
