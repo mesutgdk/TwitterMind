@@ -6,7 +6,7 @@ TwitterMind is a Machine Learning application that allows the user to predict pu
 
 # What I Made
 
-I made a ml module from Twitter Sentiment Database which is made from Cornell Univercity
+I made a ml module from Twitter Sentiment Database created by Cornell University
 https://arxiv.org/abs/1610.09225
 
 Also i used Matt Donnell's Swifter and import SwifteriOS.framework
