@@ -15,6 +15,7 @@
 		63E0054B2A0ED3BD009BFEAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E005492A0ED3BD009BFEAB /* LaunchScreen.storyboard */; };
 		63E006202A100097009BFEAB /* SwifteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E006172A10008C009BFEAB /* SwifteriOS.framework */; };
 		63E006212A100097009BFEAB /* SwifteriOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 63E006172A10008C009BFEAB /* SwifteriOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		63E006312A1203BD009BFEAB /* TweetMindClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 63E0062B2A1203BD009BFEAB /* TweetMindClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		63E0054A2A0ED3BD009BFEAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63E0054C2A0ED3BD009BFEAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63E0060E2A10008C009BFEAB /* Swifter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swifter.xcodeproj; path = ../../Swifter/Swifter.xcodeproj; sourceTree = "<group>"; };
+		63E0062B2A1203BD009BFEAB /* TweetMindClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = TweetMindClassifier.mlmodel; path = TweetMindMLMaker/TweetMindClassifier.mlmodel; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 		63E0053D2A0ED3BC009BFEAB /* TwitterMind */ = {
 			isa = PBXGroup;
 			children = (
+				63E0062B2A1203BD009BFEAB /* TweetMindClassifier.mlmodel */,
 				63E0053E2A0ED3BC009BFEAB /* AppDelegate.swift */,
 				63E005402A0ED3BC009BFEAB /* SceneDelegate.swift */,
 				63E005422A0ED3BC009BFEAB /* ViewController.swift */,
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63E005432A0ED3BC009BFEAB /* ViewController.swift in Sources */,
+				63E006312A1203BD009BFEAB /* TweetMindClassifier.mlmodel in Sources */,
 				63E0053F2A0ED3BC009BFEAB /* AppDelegate.swift in Sources */,
 				63E005412A0ED3BC009BFEAB /* SceneDelegate.swift in Sources */,
 			);
