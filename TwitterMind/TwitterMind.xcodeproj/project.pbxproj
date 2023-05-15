@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38EBCEBFB1A6984B981D4D00 /* Pods_TwitterMind.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C08BDA755FBB7D1C390BBA4C /* Pods_TwitterMind.framework */; };
 		63E0053F2A0ED3BC009BFEAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E0053E2A0ED3BC009BFEAB /* AppDelegate.swift */; };
 		63E005412A0ED3BC009BFEAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E005402A0ED3BC009BFEAB /* SceneDelegate.swift */; };
 		63E005432A0ED3BC009BFEAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E005422A0ED3BC009BFEAB /* ViewController.swift */; };
@@ -71,6 +72,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2AF672104AAB05217DB4AA81 /* Pods-TwitterMind.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitterMind.debug.xcconfig"; path = "Target Support Files/Pods-TwitterMind/Pods-TwitterMind.debug.xcconfig"; sourceTree = "<group>"; };
 		63E0053B2A0ED3BC009BFEAB /* TwitterMind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterMind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63E0053E2A0ED3BC009BFEAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63E005402A0ED3BC009BFEAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +83,8 @@
 		63E0054C2A0ED3BD009BFEAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63E0060E2A10008C009BFEAB /* Swifter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swifter.xcodeproj; path = ../../Swifter/Swifter.xcodeproj; sourceTree = "<group>"; };
 		63E0062B2A1203BD009BFEAB /* TweetMindClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = TweetMindClassifier.mlmodel; path = TweetMindMLMaker/TweetMindClassifier.mlmodel; sourceTree = SOURCE_ROOT; };
+		851B6ECE907E5F7A7667DC9E /* Pods-TwitterMind.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitterMind.release.xcconfig"; path = "Target Support Files/Pods-TwitterMind/Pods-TwitterMind.release.xcconfig"; sourceTree = "<group>"; };
+		C08BDA755FBB7D1C390BBA4C /* Pods_TwitterMind.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwitterMind.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63E006202A100097009BFEAB /* SwifteriOS.framework in Frameworks */,
+				38EBCEBFB1A6984B981D4D00 /* Pods_TwitterMind.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +107,7 @@
 				63E0053D2A0ED3BC009BFEAB /* TwitterMind */,
 				63E0053C2A0ED3BC009BFEAB /* Products */,
 				63E005F62A0FFD78009BFEAB /* Frameworks */,
+				C3089EDE61D82F2FE4B7096E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +137,7 @@
 		63E005F62A0FFD78009BFEAB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C08BDA755FBB7D1C390BBA4C /* Pods_TwitterMind.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -147,6 +154,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		C3089EDE61D82F2FE4B7096E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AF672104AAB05217DB4AA81 /* Pods-TwitterMind.debug.xcconfig */,
+				851B6ECE907E5F7A7667DC9E /* Pods-TwitterMind.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -154,10 +170,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63E0054F2A0ED3BD009BFEAB /* Build configuration list for PBXNativeTarget "TwitterMind" */;
 			buildPhases = (
+				C9CAA49915203994FB719A20 /* [CP] Check Pods Manifest.lock */,
 				63E005372A0ED3BC009BFEAB /* Sources */,
 				63E005382A0ED3BC009BFEAB /* Frameworks */,
 				63E005392A0ED3BC009BFEAB /* Resources */,
 				63E005F92A0FFD78009BFEAB /* Embed Frameworks */,
+				16180F8E8A57DC788B20561E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -257,6 +275,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16180F8E8A57DC788B20561E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TwitterMind/Pods-TwitterMind-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TwitterMind/Pods-TwitterMind-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TwitterMind/Pods-TwitterMind-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9CAA49915203994FB719A20 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TwitterMind-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		63E005372A0ED3BC009BFEAB /* Sources */ = {
@@ -408,6 +468,7 @@
 		};
 		63E005502A0ED3BD009BFEAB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AF672104AAB05217DB4AA81 /* Pods-TwitterMind.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -421,7 +482,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -437,6 +498,7 @@
 		};
 		63E005512A0ED3BD009BFEAB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 851B6ECE907E5F7A7667DC9E /* Pods-TwitterMind.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -450,7 +512,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
