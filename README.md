@@ -2,10 +2,9 @@
 
 TwitterMind is a Machine Learning application that allows the user to predict public opinion about any name they want to ask using the latest 100 tweets and do a sentiment classification for that particular company-name-anthing questioned✌🏻.
 
-<img width="144" alt="Ekran Resmi 2023-05-15 13 28 29" src="https://github.com/mesutgdk/TwitterMind/assets/112901255/85c29ea1-6ad6-4fe8-9800-57deed5d81d9">
+<img width="144" alt="Ekran Resmi 2023-05-15 13 28 29" src="https://github.com/mesutgdk/TwitterMind/assets/112901255/13fc46cb-c0b4-480b-9b26-e04eeadbb679">
 <img width="144" alt="Ekran Resmi 2023-05-15 13 29 56" src="https://github.com/mesutgdk/TwitterMind/assets/112901255/9528d930-101d-4e46-bafb-3c2330cdce02">
 <img width="135" alt="Ekran Resmi 2023-05-15 13 30 37" src="https://github.com/mesutgdk/TwitterMind/assets/112901255/95b0e284-6bda-4380-8a6f-87d4bbc3b59c">
-
 
 
 # What I Made
